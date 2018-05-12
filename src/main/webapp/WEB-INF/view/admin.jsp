@@ -1,0 +1,16 @@
+<%@include file="/WEB-INF/view/template/header.jsp"%>
+<div class="container-wrapper">
+	<div class="container">
+		<div class="page-header">
+			<h1>Administrator Page</h1>
+
+			<p class="lead">This is the Administrator Page!</p>
+		</div>
+		
+		<h3> <a href="<c:url value="/admin/productInventory"/>"> Product Inventory </a></h3>
+
+        <p> Here you can view, check and update the product inventory! </p>
+        
+        <br><br>
+
+<%@include file="/WEB-INF/view/template/footer.jsp"%>
